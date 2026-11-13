@@ -93,6 +93,10 @@ I value a reproducible failure and a clear explanation of the correction. Passin
 | Delivery | Git, GitHub, Jenkins, CI/CD, Render |
 | Quality | Code review, API testing, regression testing, concurrency testing, smoke tests, monitoring, root-cause analysis |
 
+## Engineering resources
+
+[Engineering review checklist](https://github.com/rameshpingili1729/rameshpingili1729/blob/main/ENGINEERING_REVIEW_CHECKLIST.md) — practical review questions for Pega workflows, integrations, tests, data integrity, and AI-generated changes.
+
 ## Certifications
 
 - Pega Certified Senior System Architect (CSSA)
