@@ -1,53 +1,97 @@
 # Ramesh Pingili
-### Software Architect | Pega Technical Lead | Applied AI Engineer
+### Software Architect · Pega Technical Lead · Applied AI Engineer
 
-I build enterprise workflows and AI applications, with 16+ years of experience across healthcare, banking, insurance, and government. My work spans architecture, hands-on development, integrations, platform modernization, and production troubleshooting.
+Building reliable enterprise workflows and AI products—from architecture and implementation to production support.
 
-I am the founder and builder of Alphaclara and the developer of Priorly.
+[LinkedIn](https://www.linkedin.com/in/rameshpingili) · [Alphaclara](https://alphaclara.ai) · [iOS App](https://apps.apple.com/us/app/alphaclara/id6766338219)
 
-## Apps I built
+## About me
 
-### Alphaclara — AI-powered market intelligence
-Founder & AI Solutions Architect | 2025–present
+I am a software architect and technical lead with 16+ years of experience across healthcare, banking, insurance, and government. I combine enterprise Pega engineering with hands-on AI application development, API design, mobile delivery, and production troubleshooting.
 
-Designed and shipped a production iOS application using Python, FastAPI, React Native, Expo, and Firebase/Firestore.
+I founded and built Alphaclara, a production AI-powered market intelligence app, and am developing Priorly, an intelligent personal organization product. I own product architecture, integration decisions, testing, deployment, and validation while using coding agents throughout development.
+
+## Explore my work
+
+| Project | Focus | Explore |
+| --- | --- | --- |
+| Alphaclara | Production iOS app; market intelligence, conversational AI, backend reliability | [Engineering showcase](https://github.com/rameshpingili1729/alphaclara-showcase) |
+| Priorly | Natural-language capture, structured information, prioritization, and data integrity | [Engineering showcase](https://github.com/rameshpingili1729/priorly-showcase) |
+
+## Pega & enterprise automation
+
+I design case lifecycles, reusable rules, data models, integrations, and operational controls, and carry changes through review, testing, deployment, and stabilization.
+
+| Capability | Hands-on experience |
+| --- | --- |
+| Case & workflow design | Stages, flows, flow actions, SLAs, routing, approvals, escalations, correspondence, and reporting |
+| Rules & data | Class structures, inheritance, Data Pages, Data Transforms, Activities, decision tables, decision trees, and declare expressions |
+| Integrations | REST/SOAP connectors and services, MQ, SFTP, File Listeners, authentication, mapping, retries, and exception handling |
+| Modernization | Pega PRPC 5.x–8.x, Infinity, Constellation, rule remediation, schema changes, regression testing, and post-upgrade stabilization |
+| Background processing | Queue Processors, Job Schedulers, Agents, and robotics |
+| Diagnostics | PDC, PAL, Tracer, Clipboard, AES, DB Trace, Splunk, alert logs, and SQL analysis |
+
+### Selected enterprise engagements
+
+Pega Tech Lead / Lead Software Engineer at ItechUS Inc., with earlier roles at StaidLogic, Tech Mahindra, and Virtusa. The organizations below represent client engagements.
+
+| Organization | Engineering focus |
+| --- | --- |
+| New Jersey Administrative Office of the Courts | Case management, Constellation, integrations, and production support |
+| Evernorth / Express Scripts | Prescription workflows, clinical outreach, API integrations, and troubleshooting |
+| Citi Treasury and Trade Solutions | Global signer management, account maintenance, and compliance integrations |
+| Cigna | Commercial underwriting, onboarding, installation, and retention |
+| AIG | Global claims workflows and platform modernization |
+| NIH / National Institute on Aging | Recognition workflows, HR integrations, and robotics |
+| Verizon | Rebate and promotion processing |
+| California HCD | Funding, compliance reviews, approvals, and reporting |
+| HealthNet / Centene | Appeals & Grievances workflows and Pega upgrades |
+
+## AI products
+
+### Alphaclara
+Founder & AI Solutions Architect · 2025–present
+
+Designed and shipped a production iOS application using React Native, Expo, Python, FastAPI, and Firebase/Firestore.
 
 - Integrated Clara AI with structured application and market context.
 - Built response validation, deterministic fallbacks, scheduled ingestion, quote processing, caching, retries, and circuit breakers.
 - Developed an XGBoost workflow using 48 engineered features.
 - Own architecture, integration, testing, deployment, monitoring, and production troubleshooting.
 
-[Website](https://alphaclara.ai) · [App Store](https://apps.apple.com/us/app/alphaclara/id6766338219)
+[Product website](https://alphaclara.ai) · [App Store](https://apps.apple.com/us/app/alphaclara/id6766338219) · [Technical overview](https://github.com/rameshpingili1729/alphaclara-showcase)
 
-### Priorly — intelligent personal organization
-Independent AI product development | 2026–present
+### Priorly
+Independent AI product development · 2026–present
 
 Building AI-assisted capture workflows that turn natural-language input into organized information and actionable priorities.
 
-- Designed backend extraction, normalization, classification, and prioritization.
-- Built screen-specific APIs and separated backend intelligence from mobile presentation.
-- Implemented duplicate detection, atomic insertion, and concurrency protections.
-- Tested workflow transitions, simultaneous requests, data compatibility, and failure paths.
+- Designed extraction, normalization, classification, and prioritization in the backend.
+- Built focused API responses for each screen and separated intelligence from mobile presentation.
+- Implemented duplicate detection, atomic insertion controls, and concurrency protections.
+- Tested workflow transitions, simultaneous requests, existing-data compatibility, and failure paths.
 
-## Enterprise engineering
+[Technical overview](https://github.com/rameshpingili1729/priorly-showcase)
 
-Pega Tech Lead / Lead Software Engineer at ItechUS Inc., with earlier roles at StaidLogic, Tech Mahindra, and Virtusa.
+## How I evaluate AI-generated changes
 
-Selected client engagements include New Jersey Administrative Office of the Courts, Evernorth/Express Scripts, Citi, Cigna, AIG, NIH/NIA, Verizon, California HCD, and HealthNet/Centene.
+I use Claude Code, ChatGPT, and OpenAI Codex for implementation, debugging, and review. I remain responsible for architectural decisions and whether a change works in the application.
 
-My work includes case management, business rules, approvals, integrations, platform upgrades, performance tuning, and production support.
+My review starts with the original requirement and follows the change through the diff, relevant tests, existing records, API behavior, and actual user flow. I check whether tests still measure the intended behavior, whether compatibility has been preserved, and whether the change introduces regressions beyond the reported bug.
 
-## Technical strengths
+I value a reproducible failure and a clear explanation of the correction. Passing tests are useful evidence; they also need to cover the data and conditions the application actually encounters.
 
-- Pega: PRPC, Infinity, Constellation, case management, decision rules, Data Pages, Queue Processors, Job Schedulers, and robotics.
-- AI and backend: Python, FastAPI, LLM integrations, structured outputs, response validation, XGBoost, and REST APIs.
-- Mobile: React Native and Expo.
-- Data and delivery: Firebase, Firestore, PostgreSQL, Oracle, Git, GitHub, Jenkins, Render, and CI/CD.
-- Quality: Code reviews, regression testing, concurrency testing, API testing, root-cause analysis, and production monitoring.
+## Technical toolkit
 
-## Working with coding agents
-
-I use Claude Code, ChatGPT, and OpenAI Codex for implementation, debugging, and review. I own architectural decisions and validate generated changes against requirements, existing data, integration behavior, and actual user flows.
+| Area | Technologies & practices |
+| --- | --- |
+| Languages | Python, Java, JavaScript, SQL |
+| Backend | FastAPI, REST/SOAP APIs, authentication, caching, scheduled processing |
+| Mobile | React Native, Expo |
+| AI | LLM API integration, structured context, response validation, deterministic fallbacks, XGBoost |
+| Data | Firebase, Firestore, PostgreSQL, Oracle, SQL Server, DB2 |
+| Delivery | Git, GitHub, Jenkins, CI/CD, Render |
+| Quality | Code review, API testing, regression testing, concurrency testing, smoke tests, monitoring, root-cause analysis |
 
 ## Certifications
 
@@ -56,12 +100,10 @@ I use Claude Code, ChatGPT, and OpenAI Codex for implementation, debugging, and 
 - Pega Certified Robotics System Architect (CRSA)
 - Pega Certified Data Scientist (PCDS)
 
-## Education and contact
+## Education & contact
 
 Bachelor of Technology in Information Technology — Acharya Nagarjuna University, India.
 
-Based in Edison, New Jersey, USA.
+Based in Edison, New Jersey, USA. [Connect on LinkedIn](https://www.linkedin.com/in/rameshpingili).
 
-[Connect on LinkedIn](https://www.linkedin.com/in/rameshpingili)
-
-Commercial application source code and client implementations remain private.
+The linked app repositories are public product and engineering showcases. Commercial application source code and client implementations remain private.
